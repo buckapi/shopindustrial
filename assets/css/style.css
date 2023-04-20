@@ -1,6 +1,6 @@
 @charset "UTF-8";:root {
     --primary-color: #212121;
-    --secondary-color: #ffc107;
+    --secondary-color: #ffeb3b;
     --foreground-color: #121416;
     --foreground-sub-color: #898686;
     --body-text-color: #000000;
@@ -10,7 +10,7 @@
     --bg-offwhite-color: #F7F7F7;
     --bg-black-color: #000000;
     --bg-light-dark-color: #1a1818;
-    --border-color: #ffc107;
+    --border-color: #ffeb3b;
     --open-sans-fonts: 'Open Sans',sans-serif;
     --rubik-fonts: 'Rubik',sans-serif;
     --inter-fonts: 'Inter',sans-serif;
