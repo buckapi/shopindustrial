@@ -1,15 +1,16 @@
 @charset "UTF-8";:root {
     --primary-color: #212121;
-    --secondary-color: #ED1D24;
+    --secondary-color: #ffc107;
     --foreground-color: #121416;
     --foreground-sub-color: #898686;
     --body-text-color: #000000;
     --text-white-color: #fff;
+    --text-black-color: #000;
     --body-background-color: #fff;
     --bg-offwhite-color: #F7F7F7;
     --bg-black-color: #000000;
     --bg-light-dark-color: #1a1818;
-    --border-color: #E5E5E5;
+    --border-color: #ffc107;
     --open-sans-fonts: 'Open Sans',sans-serif;
     --rubik-fonts: 'Rubik',sans-serif;
     --inter-fonts: 'Inter',sans-serif;
@@ -647,13 +648,13 @@ hr {
     letter-spacing: .2px;
     border-radius: 2.4rem;
     background: var(--secondary-color);
-    color: var(--text-white-color);
+    color: var(--text-black-color);
     border: 0
 }
 
 .primary__btn:hover {
     background: var(--primary-color);
-    color: var(--text-white-color)
+    color: var(--text-black-color)
 }
 
 @media only screen and (min-width: 768px) {
@@ -1919,7 +1920,7 @@ select {
 }
 
 .main__logo--img {
-    max-width: 145px;
+    max-width: 160px;
     display: block
 }
 
